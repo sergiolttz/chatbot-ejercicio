@@ -1,0 +1,30 @@
+#VENV
+
+### windows
+```bash
+agente_basico_venv/Scripts/activate.ps1
+```
+
+### linux
+```bash
+source agente_basico_venv/bin/activate
+```
+### instalar dependencias
+fastapi
+```bash
+pip install "fastapi[standard]"
+```
+langchain
+```bash
+pip install langchain langchain-core langchain-cohere langchain-community langchain-experimental
+```
+
+langgraph
+```bash
+pip install langgraph
+```
+
+# Run fastapo
+```bash
+fastapi dev main.py
+```
