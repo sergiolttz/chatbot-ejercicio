@@ -28,3 +28,16 @@ pip install langgraph
 ```bash
 fastapi dev main.py
 ```
+
+# Talvi search
+https://python.langchain.com/docs/integrations/tools/tavily_search/
+```bash
+pip install -qU "langchain-community>=0.2.11" tavily-python
+```
+
+# langchain tool
+https://langchain-ai.github.io/langgraph/reference/prebuilt/
+```bash
+pip install langchain-community
+pip install -qU "langchain-community>=0.2.11" tavily-python
+```

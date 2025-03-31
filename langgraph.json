@@ -1,0 +1,8 @@
+{
+    "dependencies":["./requirements.txt"],
+    "graphs":{
+        "agente_1":"./agentes/agente_basico.py:graph",
+        "agente_2":"./agentes/agente_basico.py:graph2",
+        "agente_3": "./agentes/agente_basico.py:graph3"
+    }
+}
